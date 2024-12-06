@@ -1,0 +1,5 @@
+k = int(input())
+room_no = input().split()
+room_no = sorted(room_no)
+c_room = set(room_no[1::2]) ^ set(set(room_no[0::2]))
+print(c_room.pop())
