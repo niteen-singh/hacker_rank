@@ -1,0 +1,5 @@
+el = int(input())
+e = set(list(map(int, input().split()))[:el])
+fl = int(input())
+f = set(list(map(int, input().split()))[:fl])
+print(len(e.difference(f)))
